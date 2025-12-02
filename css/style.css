@@ -1,0 +1,2220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "BDO Grotesk";
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Light.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-DemiBold.woff2") format("woff2"),
+    url("../font/BDOGrotesk-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-ExtraBold.woff2") format("woff2"),
+    url("../font/BDOGrotesk-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Bold.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Black.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Regular.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Medium.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Medium.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url("../font/BDOGrotesk-Regular.woff2") format("woff2"),
+    url("../font/BDOGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "BDO Grotesk";
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 56px;
+  font-family: "BDO Grotesk";
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 45px;
+  font-family: "BDO Grotesk";
+}
+
+h4 {
+  font-size: 32px;
+  font-family: "BDO Grotesk";
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 27px;
+  font-family: "BDO Grotesk";
+}
+
+h6 {
+  font-size: 22px;
+  font-family: "BDO Grotesk";
+}
+
+p {
+  font-size: 27px;
+  font-family: "BDO Grotesk";
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  line-height: 1.55;
+}
+
+button.start {
+  display: none;
+}
+
+.header_section .header_inner_section {
+  padding: 25px 20px !important;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(31, 58, 81, 0.9);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1720px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* header css start */
+.header_section .header_inner_inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.header_section .header_btn_link span.btn_text {
+  font-weight: 700;
+  font-family: "BDO Grotesk";
+}
+.header_section .logo {
+  display: flex;
+}
+
+span.txt {
+  display: flex;
+}
+
+nav.navbar ul li .menu:hover {
+  color: #f8ae1d !important;
+  transition: 0.3s ease-in-out;
+}
+
+.header_section .navbar {
+  width: 60%;
+  text-align: end;
+}
+
+.header_section li {
+  display: inline-block;
+  margin-right: 1.5%;
+}
+.header_section li:last-child {
+  margin-right: 0;
+}
+.header_section a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 14.1094px;
+}
+
+.header_section .contact {
+  align-items: center;
+  display: flex;
+  gap: 0-rem;
+  justify-content: flex-end;
+  max-width: 440px;
+}
+
+svg.navbar_contact_svg {
+  height: 22px;
+  margin-right: 11px;
+  width: 22px;
+  vertical-align: middle;
+}
+
+.header_section .header_btn_phone_link {
+  border: 1.5px solid #f8ae1d;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 13.1px 22.9px;
+  display: flex;
+  line-height: 26.9px;
+  align-items: center;
+}
+
+.header_section .header_btn_phone_link:hover {
+  background-color: white;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+.header_section .header_btn_phone_link:hover path {
+  background-color: white;
+  fill: #000;
+}
+
+.header_section .header_btn_phone_link span.btn_text {
+  font-family: "BDO Grotesk";
+  font-weight: bold;
+}
+
+.header_section .header_btn_link {
+  background: #f8ae1d;
+  color: black;
+  border: none;
+  margin-left: 10px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom-right-radius: 50px;
+  line-height: 30.9px;
+  padding: 11.32px 39.99px;
+}
+
+.header_section .header_btn_link:hover {
+  background: #fff;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+header.header_section {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  right: 0;
+  z-index: 111;
+}
+
+.navbar ul > li > a {
+  position: relative;
+}
+
+.dropdown {
+  border: 2px solid red;
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.navbar li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+
+/*   Header Responsive start   */
+@media (max-width: 1405px) {
+  .container {
+    padding: 0px 30px;
+  }
+  .header_section .contact {
+    margin: auto;
+  }
+
+  .sidebar {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .toogle:checked ~ .sidebar {
+    opacity: 1;
+    visibility: visible;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  }
+  .btnn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  input.toogle {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  header.header_section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+  }
+
+  .header_section .navbar {
+    width: 80%;
+    text-align: end;
+  }
+}
+
+@media (max-width: 1050px) {
+  header.header_section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  button.start {
+    display: block;
+    right: 42px;
+    font-size: 50px;
+    background-color: rgba(31, 58, 81, 0.9);
+  }
+  .navbar {
+    display: none;
+  }
+  .header_section .navbar {
+    text-align: end;
+    position: absolute;
+    top: 184px;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .header_section .navbar {
+    background-color: #2a455b;
+    height: 100vh;
+    left: 0;
+    overflow-y: scroll;
+    padding-bottom: 30vh;
+    position: absolute;
+    right: 0;
+    text-align: left !important;
+    top: 100%;
+    width: 100% !important;
+  }
+  .header_section li {
+    margin-right: unset;
+    padding: 15px 46px;
+    border-bottom: 2px solid white;
+    d: none;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  header.header_section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+  }
+}
+
+@media (max-width: 965px) {
+  h1 {
+    font-size: 50px;
+    font-family: "BDO Grotesk";
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-family: "BDO Grotesk";
+  }
+
+  h3 {
+    font-size: 25px;
+    font-family: "BDO Grotesk";
+  }
+
+  .header_section .logo {
+    display: flex;
+    margin: auto;
+  }
+
+  .header_section .navbar {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  header.header_section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+  }
+
+  .header_section .logo {
+    display: flex;
+    margin: auto;
+  }
+
+  .header_section .navbar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header_section .contact {
+    margin: auto;
+  }
+
+  .header_section .contact {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .banner_btn_group {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header_section .header_btn_phone_link {
+    margin-bottom: 10px;
+  }
+  .banner_content h1 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    line-height: 40px !important;
+  }
+  .header_section .header_inner_inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  .banner_content {
+    padding: 320px 0 0;
+    top: 240px !important;
+  }
+}
+@media (max-width: 560px) {
+  .header_section .contact {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .header_section .header_btn_phone_link {
+    border: 1.5px solid #f8ae1d;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 13.1px 22.9px;
+    display: flex;
+    line-height: 26.9px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .banner_content {
+    padding: 320px 0 0;
+    top: 220px;
+  }
+  .banner_btn_group {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .banner_content {
+    padding: 140px 0 0 !important;
+    top: 220px;
+  }
+  .header_section .contact {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .banner_content h1 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+    line-height: 40px !important;
+  }
+  .header_section .header_btn_phone_link {
+    border: 1.5px solid #f8ae1d;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 13.1px 22.9px;
+    display: flex;
+    line-height: 26.9px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
+/*   Header Responsive End   */
+/* header css end */
+
+/* banner css start */
+.banner_section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.banner_section video.video-bg {
+  position: absolute;
+  width: 100%;
+  height: calc(100% + 30px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: fill;
+}
+
+.banner_content {
+  max-width: 760px;
+  position: relative;
+  z-index: 4;
+  padding: 280px 0 0;
+}
+
+.banner_content .orange {
+  color: #f8ae1d;
+}
+
+.banner_pragraph .banner_pragraph {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0 !important;
+}
+
+.banner_content h1 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+  line-height: 84px;
+}
+
+.banner_section:before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(
+    0deg,
+    rgba(13, 30, 44, 0.9),
+    rgba(13, 30, 44, 0.9)
+  );
+  width: 100%;
+  height: calc(100% + 30px);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.banner_section p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.banner_btn_group {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.banner_section a.btn_link {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 11px 38px;
+  background: #f8ae1d;
+  color: #1b1b17;
+  align-items: center;
+  display: flex;
+  min-width: 268px;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+}
+.banner_section a.btn_link:hover {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 11px 38px;
+  background: #fff;
+  color: #1b1b17;
+  align-items: center;
+  display: flex;
+  min-width: 268px;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.btn_link:hover span.banner_svg {
+  background-color: #f8ae1d;
+  transition: 0.3s ease-in-out;
+}
+.banner_btn_group span.banner_svg {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  height: 50px;
+  justify-content: center;
+  position: absolute;
+  width: 50px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_btn_group a.btn_link_two {
+  min-width: 285px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 700;
+  border-color: #f8ae1d;
+  position: relative;
+  font-size: 15.602px;
+  padding: 15px 38px;
+  text-decoration: none;
+}
+
+.banner_btn_group a.btn_link_two:hover {
+  min-width: 285px;
+  background: white;
+  color: black;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 700;
+  border-color: white;
+  position: relative;
+  font-size: 15.602px;
+  padding: 15px 38px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+span.svg_block {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  height: 50px;
+  justify-content: center;
+  position: absolute;
+  width: 50px;
+  display: flex;
+  top: 0;
+  right: 5px;
+  bottom: 0;
+  align-items: center;
+  margin: auto;
+}
+
+a.btn_link_two:hover .svg_block {
+  background-color: #f8ae1d;
+}
+
+.baner_content_outer_image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+  overflow: hidden;
+  padding: 50px;
+  width: 100%;
+  z-index: 11;
+  position: relative;
+}
+
+.banner_content_outer_left {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  width: 50%;
+  color: #fff;
+}
+
+.banner_content_outer_image_two {
+  width: 20%;
+}
+
+.left_content {
+  width: 320px;
+  line-height: 23.4px;
+  font-size: 18px;
+}
+
+.banner_outer_content_starts {
+  align-items: center;
+  display: flex;
+  gap: 10%;
+  justify-content: end;
+  width: 50%;
+  flex-wrap: wrap !important;
+}
+
+.pill-value {
+  color: #fff;
+  font-size: 59.784px;
+  line-height: 1;
+}
+
+.banner_outer_content_inner {
+  color: #fff;
+  font-size: 59.784px;
+  line-height: 1;
+}
+
+.pill-label {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.banner_outer_content_inner_two {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.banner_outer_content_inner_three {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/*   Banner Responsive start   */
+@media (max-width: 1212px) {
+  .banner_content_outer_left {
+    width: 40%;
+  }
+
+  .banner_outer_content_starts {
+    width: 60%;
+    gap: 0;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+  }
+  .banner_content_outer_image_two {
+    border-radius: 9.481px;
+    width: 40%;
+  }
+}
+@media (max-width: 1050px) {
+  .banner_content {
+    padding: 230px 0 0;
+  }
+
+  .left_content {
+    width: 230px;
+    font-size: 14px;
+  }
+
+  .banner_content_outer_left {
+    width: 40%;
+  }
+
+  .banner_outer_content_starts {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner_btn_group {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner_content {
+    padding: 230px 0 0;
+  }
+
+  .left_content {
+    width: 230px;
+    font-size: 14px;
+  }
+
+  .banner_content_outer_left {
+    width: 40%;
+  }
+}
+
+@media (max-width: 965px) {
+  .banner_content {
+    padding: 300px 0 0;
+    top: 100px;
+  }
+
+  .banner_content_outer_left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .left_content {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  .banner_content_outer_image_two {
+    border-radius: 9.481px;
+    width: 25%;
+  }
+
+  .banner_outer_content_starts {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+  }
+
+  .baner_content_outer_image {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner_btn_group {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pill-label {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .banner_outer_content_inner_two {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .banner_outer_content_inner_three {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .pill-value {
+    color: #fff;
+    font-size: 50.784px;
+    line-height: 1;
+  }
+
+  .pill-value {
+    color: #fff;
+    font-size: 50.784px;
+    line-height: 1;
+  }
+
+  .pill-value {
+    color: #fff;
+    font-size: 50.784px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner_content {
+    padding: 230px 0 0;
+    top: 100px;
+  }
+
+  .left_content {
+    width: 230px;
+    font-size: 14px;
+  }
+
+  .banner_content_outer_image_two {
+    border-radius: 9.481px;
+    width: 50%;
+  }
+
+  .banner_outer_content_starts {
+    width: calc(50% + 160px);
+    gap: 0;
+  }
+
+  .banner_outer_content_inner {
+    color: #fff;
+    font-size: 50.784px;
+    line-height: 1;
+  }
+
+  .baner_content_outer_image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 120px !important;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    overflow: hidden;
+    padding: 50px;
+    width: 100%;
+    z-index: 11;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner_content h1 {
+    color: white;
+    font-size: 20px;
+  }
+
+  .banner_section p {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .banner_btn_group {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+  }
+
+  .banner_content_outer_left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .banner_outer_content_starts {
+    width: calc(50% + 160px);
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner_content {
+    padding: 320px 0 0;
+    top: 220px;
+  }
+}
+
+/*   Banner Responsive End  */
+
+/* banner css End */
+
+/* outer  Section css start   */
+
+.outer_section {
+  padding: 80px 0;
+}
+
+.outer_section h2 .orange {
+  color: #f8ae1d;
+}
+
+.outer_section .group_block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.outer_section .block iframe {
+  width: 100%;
+}
+
+.outer_section .block h6 {
+  font-weight: 500;
+  color: #263745;
+  font-family: BDO Grotesk, sans-serif !important;
+  line-height: 1.2;
+  margin: 10px;
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.outer_section .summary {
+  font-size: 16px;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.outer_section .block {
+  text-align: center;
+  width: calc(33.33% - 30px);
+}
+.outer_section .block:nth-child(3n) {
+  margin-right: 0px;
+}
+
+@media (max-width: 720px) {
+  .outer_section .block {
+    text-align: center;
+    width: unset;
+    margin-right: unset;
+  }
+}
+/*  outer section css  End  */
+/*  Section  Two   start    */
+.numbers {
+  background-color: #263745;
+  padding: 80px 0;
+}
+
+.numbers_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.num_left {
+  padding-right: 80px;
+  position: relative;
+  width: 35%;
+  align-items: center;
+  display: flex;
+}
+
+.orange {
+  color: #f8ae1d;
+}
+
+.num_left:before {
+  background-image: url("https://www-casesbysource-com.sandbox.hs-sites.com/hubfs/2025/images/home/counter_img-1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 175px;
+  margin: auto;
+  position: absolute;
+  right: -30px;
+  top: 0;
+  width: 30px;
+}
+
+.group_ring {
+  align-items: center;
+  display: flex;
+  gap: 11%;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 65%;
+}
+
+.ring {
+  aspect-ratio: 1;
+  border: 4px solid;
+  color: #f8ae1d;
+  border-radius: 50%;
+  display: inline-grid;
+  max-width: 181px;
+  place-items: center;
+  width: 40vw;
+}
+
+.group_ring li {
+  color: #fff;
+  text-align: center;
+}
+
+ul.group_ring p {
+  margin: 20px 0 0;
+  font-size: 1rem;
+}
+
+.ring > span {
+  color: #fff;
+  display: inline-block;
+  font-size: 43.647px;
+  line-height: 1;
+}
+
+@media (max-width: 460px) {
+  .num_left h2 {
+    font-size: 16px !important;
+    font-family: "BDO Grotesk";
+  }
+}
+@media (max-width: 400px) {
+  .ring > span {
+    font-size: 30.647px;
+  }
+  .num_left h2 {
+    font-size: 16px !important;
+    font-family: "BDO Grotesk";
+  }
+}
+@media (max-width: 1050px) {
+  .num_left {
+    padding-right: 80px;
+    position: relative;
+    width: auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .group_ring li {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .num_left:before {
+    background-image: url(https://www-casesbysource-com.sandbox.hs-sites.com/hubfs/2025/images/home/counter_img-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    content: "";
+    height: 175px;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+    width: 30px;
+    left: -160px;
+  }
+  .num_left {
+    padding-right: 80px;
+    position: relative;
+    width: auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .num_left h2 {
+    font-size: 26px;
+    font-family: "BDO Grotesk";
+  }
+
+  .group_ring {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1350px) {
+  .numbers_inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .num_left:before {
+    display: none;
+  }
+  .num_left {
+    padding-right: unset;
+    position: relative;
+    width: auto;
+    align-items: center;
+    display: flex;
+  }
+
+  .group_ring {
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+/*  Section  two  End    */
+
+/* Section Three Start    */
+
+.industries h2 {
+  color: #2a455b;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 0 1.4rem;
+}
+.industries .summary {
+  margin: 0 auto;
+  max-width: 1300px;
+  color: #1e1e24;
+  font-size: 27px;
+  text-align: center;
+}
+
+.industries .summary p {
+  margin: 0 auto;
+  max-width: 1300px;
+  color: #1e1e24;
+  font-size: 27px;
+  text-align: center;
+}
+
+.industries .card-grid.margin {
+  margin: 90px auto 0;
+  max-width: 1400px;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+}
+
+.industries .thumb {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+  padding-top: 100%;
+  width: 100%;
+}
+
+.industries .card {
+  width: calc(33.33% - 24px);
+  background-color: #efefef;
+  border-radius: 10px;
+}
+.card h4 {
+  font-size: 22px;
+  font-family: "BDO Grotesk", sans-serif !important;
+  font-weight: 500 !important;
+  color: #010d17;
+}
+
+.bags_group_img img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 8px 8px 0 0;
+}
+
+.industries .content {
+  padding: 25px 25px 30px;
+}
+
+.industries .content a.tag {
+  background: #f8ae1d;
+  border: 1px solid #f8ae1d;
+  border-radius: 100px;
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 26px;
+  padding: 8px 16px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+.industries .content a.tag:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.industries .content p {
+  font-family: "BDO Grotesk";
+  color: rgba(51, 51, 51, 0.6);
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+.industries .group_of_bags {
+  margin: 90px auto 0;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+}
+@media (max-width: 865px) {
+  .industries .group_of_bags {
+    margin: 90px auto 0;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .industries .card {
+    width: calc(33.33% - 24px);
+    background-color: #efefef;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+/* Section Three End  */
+
+/* Group Section four and five start   */
+.midwest-section {
+  padding: 100px 0 120px;
+}
+
+.midwest-text_inner {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.midwest-text {
+  padding-right: 72px;
+  width: 50%;
+}
+
+.midwest-text h2 {
+  margin-bottom: 25px;
+}
+
+.midwest-text h2 span.orange {
+  display: block;
+}
+
+.midwest-text h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.midwest-section h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.btn-read {
+  background: #f8ae1d;
+  border: 1px solid #f8ae1d;
+  border-radius: 100px;
+  color: #000;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 15px 38px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.btn-read:hover {
+  transition-duration: 0.5s;
+  background: #fff;
+  color: black;
+  border: 1px solid #f8ae1d;
+  border-radius: 100px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 15px 38px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.midwest-image {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.midwest-image img.flag {
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  left: 30%;
+  position: absolute;
+  top: -20px;
+  transform: translateX(-50%);
+  width: 41% !important;
+}
+
+.midwest-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 1.4rem;
+  font-weight: 500;
+}
+
+.list_sec ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.list_sec ul li {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-left: 42px;
+  position: relative;
+}
+
+.list_sec ul li:before {
+  background-image: url(https://471584.fs1.hubspotusercontent-na1.net/hubfs/471584/2025/images/our-process/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-size: contain;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+}
+
+.reverse .midwest-text {
+  width: 50%;
+  padding-left: 73px;
+  padding-right: 0px;
+}
+.reverse .midwest-text_inner .midwest-image {
+  width: 100%;
+}
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.reverse .midwest-text_inner {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+img.product {
+  border-radius: 22px;
+}
+
+@media (max-width: 1095px) {
+  .midwest-text_inner .midwest-text {
+    padding-right: unset;
+    width: unset;
+    margin-bottom: 30px;
+  }
+  .midwest-text_inner {
+    width: unset;
+  }
+}
+@media (max-width: 1024px) {
+  .reverse .midwest-text {
+    width: 100%;
+    padding-left: unset;
+    padding-right: unset;
+    padding-bottom: 20px;
+  }
+  img {
+    width: unset;
+    vertical-align: middle;
+  }
+
+  .midwest-image {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .midwest-text {
+    padding-right: 0px;
+    width: 100%;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 1270px) {
+  .reverse .midwest-text {
+    width: 100%;
+    padding-left: unset;
+    padding-right: unset;
+    padding-bottom: 20px;
+    text-align: unset;
+  }
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .reverse .midwest-text_inner {
+    align-items: center;
+    display: flex;
+    width: unset;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1000px) {
+  .reverse {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .reverse .midwest-text {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    padding-right: 0px;
+  }
+  .reverse .midwest-text_inner {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .reverse .midwest-text_inner .midwest-image img {
+    height: 400px !important;
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+/* Group Section four and five start   */
+/* Group Section  Six start   */
+
+section.solutions.panel-wrap {
+  background-color: rgb(239, 247, 253);
+  padding: 100px 0px;
+}
+
+section.solutions.panel-wrap h2 {
+  max-width: 745px;
+  color: #263745;
+  font-size: 56px;
+  line-height: 67.2px;
+  font-family: BDO Grotesk, sans-serif !important;
+  font-weight: 600;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.panel {
+  align-items: center;
+  display: grid;
+  gap: 4%;
+  grid-template-columns: 1.1fr 1.4fr;
+}
+
+section.solutions.panel-wrap .summary,
+section.solutions.panel-wrap .summary p {
+  color: #2a455b;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+section.solutions.panel-wrap .summary p {
+  color: #2a455b;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.panel-media {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+}
+.m.sm.top {
+  margin-bottom: 20px;
+}
+.bot_img {
+  max-width: 100%;
+  height: 360px;
+}
+
+@media (max-width: 1524px) {
+  .panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .panel-media {
+    width: 100%;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 400px) {
+  section.solutions.panel-wrap h2 {
+    line-height: 35.2px !important;
+  }
+}
+@media (max-width: 740px) {
+  .panel-media {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1.9fr;
+  }
+}
+@media (max-width: 940px) {
+  .panel-media {
+    width: 100%;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1000px) {
+  .panel {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  section.solutions.panel-wrap h2 {
+    max-width: 745px;
+    color: #263745;
+    font-size: 25px;
+    line-height: 67.2px;
+    font-family: BDO Grotesk, sans-serif !important;
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 20px;
+  }
+
+  .panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+/* Group Section Six End   */
+
+/* Group Section saven start   */
+.section_saven {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.step-icon img {
+  max-width: 50% !important;
+  height: auto;
+}
+
+.section_saven h3 {
+  color: #263745;
+  font-family: BDO Grotesk, sans-serif !important;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.step,
+.step-icon {
+  position: relative;
+}
+
+.step:before {
+  background-image: url(https://471584.fs1.hubspotusercontent-na1.net/hubfs/471584/2025/images/home/Vector%2014.png);
+  background-repeat: no-repeat;
+  content: "";
+  height: 22px;
+  position: absolute;
+  right: -30px;
+  top: 42px;
+  width: 15px;
+}
+
+.step-icon {
+  align-items: center;
+  background-color: #efefef;
+  border-radius: 50%;
+  display: flex;
+  height: 105px;
+  justify-content: center;
+  margin: 0 auto 15px;
+  width: 105px;
+  flex-wrap: wrap;
+}
+
+.step p {
+  line-height: 1.2;
+  color: #1e1e24;
+  font-size: 22px;
+  margin: 0;
+}
+
+.Section_saven_steps {
+  gap: 40px;
+  margin: 50px auto 100px;
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn-process {
+  background-color: #f8ae1d;
+  border: 1px solid #f8ae1d;
+  border-radius: 100px;
+  color: #000;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 43px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.btn-process:hover {
+  background: transparent;
+  border-color: #f8ae1d;
+  color: #000 !important;
+}
+
+.btn_step {
+  background-color: #f8ae1d;
+  border: 1px solid #f8ae1d;
+  border-radius: 100px;
+  color: #000;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 43px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+@media (max-width: 700px) {
+  .Section_saven_steps {
+    gap: 40px;
+    margin: 50px auto 100px;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 320px) {
+  .Section_saven_steps .step:before {
+    right: unset;
+  }
+}
+@media (max-width: 500px) {
+  .Section_saven_steps {
+    gap: 40px;
+    margin: 50px auto 100px;
+    max-width: 1500px;
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .panel-media {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1024px) {
+  .Section_saven_steps {
+    gap: 40px;
+    margin: 50px auto 100px;
+    max-width: 1500px;
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/* Group Section saven End */
+
+/* Group Section eight Start*/
+
+.section_quote {
+  background: #2a455b;
+  color: #fff;
+  padding: 140px 0;
+  text-align: center;
+}
+
+.quote_inner {
+  margin: 0 auto;
+  max-width: 845px;
+}
+
+.quote_inner h2 {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+section .quote_inner .cta-row {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.quote_inner .btn_link {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 11px 38px;
+  background: #f8ae1d;
+  color: #1b1b17;
+  align-items: center;
+  display: flex;
+  min-width: 268px;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+}
+.quote_inner .btn_link:hover {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 11px 38px;
+  align-items: center;
+  display: flex;
+  min-width: 268px;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  background: #fff;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+.quote_inner .btn_link:hover .svg_block {
+  background-color: #f8ae1d;
+}
+
+.quote_inner .btn_link_two {
+  min-width: 285px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 700;
+  border-color: #f8ae1d;
+  position: relative;
+  font-size: 15.602px;
+  padding: 15px 38px;
+  text-decoration: none;
+}
+.quote_inner .btn_link_two:hover {
+  min-width: 285px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 700;
+  border-color: #f8ae1d;
+  position: relative;
+  font-size: 15.602px;
+  padding: 15px 38px;
+  text-decoration: none;
+  background: #fff;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .quote_inner h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1050px) {
+  section .quote_inner .cta-row {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+}
+/* Group Section eight End */
+
+/* Footer css start */
+.site-footer {
+  background: linear-gradient(90deg, #1c3b55, #263745);
+  color: #fff;
+  padding: 100px 0 180px;
+}
+
+.footer-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1.5fr 0.8fr 1.3fr 1fr 1.1fr;
+}
+
+.f-col.brand-col {
+  padding-right: 20%;
+}
+
+.mini-stats ul li {
+  background-color: #2a455b;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 9.794px;
+  padding: 25px;
+  text-align: center;
+}
+
+.site-footer .mini-stats {
+  margin-top: 30px;
+}
+
+.footer_logo.large {
+  margin-bottom: 15px;
+}
+
+.f-col ul li a {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 100%;
+  padding: 10px 0;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.f-col h6 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #f8ae1d;
+}
+
+.f-col.contact_details span ul li,
+.f-col.contact_details span ul li a {
+  color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 16px;
+  line-height: 0.5;
+  position: relative;
+  gap: 10px;
+}
+
+.f-col.contact_details span ul li:first-child {
+  color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.f-col.contact_details .socials ul li a {
+  align-items: center;
+  border: 1px solid #7e909e;
+  border-radius: 5px;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
+}
+
+.f-col.contact_details .socials ul li {
+  height: 35px;
+  width: 35px;
+}
+.f-col.contact_details .socials ul li a:hover {
+  background-color: #ffffffd1;
+  transition: 0.3s ease-in-out;
+}
+.f-col p > span {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.mini-stats Ul {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  padding: 0;
+}
+.mini-stats strong {
+  font-size: 44px;
+}
+.flex {
+  display: flex;
+  margin: 80px 0 0;
+  gap: 15px;
+}
+.flex .Center {
+  display: flex;
+  margin: 70px 0 0;
+  gap: 15px;
+  justify-content: center;
+}
+
+@media (max-width: 340px) {
+  .mini-stats Ul {
+    display: block;
+  }
+  .mini-stats ul:nth-child(1) li {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 466px) {
+  .mini-stats ul li {
+    background-color: #2a455b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 9.794px;
+    padding: 42px;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .mini-stats strong {
+    font-size: 40px;
+    display: block;
+  }
+
+  .mini-stats ul li {
+    background-color: #2a455b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 9.794px;
+    padding: 42px;
+    text-align: center;
+  }
+  .mini-stats strong {
+    font-size: 44px;
+    display: block;
+  }
+}
+@media (max-width: 420px) {
+  .footer-grid {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mini-stats strong {
+    font-size: 40px;
+    display: block;
+  }
+  .mini-stats ul li {
+    background-color: #2a455b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 9.794px;
+    padding: 25px;
+    text-align: center;
+  }
+  .mini-stats strong {
+    font-size: 44px;
+    display: block;
+  }
+}
+@media (max-width: 1050px) {
+  .footer_outer_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .mini-stats ul li {
+    background-color: #2a455b;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 9.794px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-grid {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .f-col.brand-col {
+    padding-right: unset;
+  }
+}
+
+.footer_outer {
+  background-color: #122b40;
+  padding: 35px 0;
+}
+
+.footer_outer_legal {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 16px;
+}
+.footer_outer_menus a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer_outer_right_side_text #footer_outer_inline_text {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 16px;
+  font-family: "BDO Grotesk";
+  display: flex;
+  gap: 20px;
+}
+.footer_outer_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 506px) {
+  .footer_outer_legal {
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Footer css end */

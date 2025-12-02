@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</head>
+<!--body is start-->
+
+<body>
+  <!--header is start-->
+  <header class="header_section">
+    <div class="header_inner_section">
+      <div class="container">
+        <div class="header_inner_inline">
+          <div class="logo">
+            <img class="header_inner_logo_image" src="./image/logo 1.webp" alt="logo 1.webp" height="auto"
+              max-width="100%" />
+          </div>
+          <button class="start"><i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#" class="menu">Home</a></li>
+              <li><a href="#" class="menu">Industries <svg width="10" height="10" viewBox="0 0 10 5" fill="none"style="margin-left: 2px;">
+                <path opacity="0.8" d="M1 1L4.73333 4L9 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg></a><div class="dropdown">
+
+
+
+              
+              </div></li>
+              <li><a href="#" class="menu">Capabilities</a></li>
+              <li><a href="#" class="menu">Our Process</a></li>
+              <li><a href="#" class="menu">About</a></li>
+            </ul>
+          </nav>
+          <div class="contact">
+            <a class="header_btn_phone_link" href="tel:+19204342523">
+              <span class=""><svg class="navbar_contact_svg" xmlns="http://www.w3.org/2000/svg" width="26" height="27"
+                  viewBox="0 0 26 27" fill="none">
+                  <g clip-path="url(#clip0_4061_3376)">
+                    <path 
+                      d="M17.0158 15.8786L17.509 15.5256L16.6836 14.3745L16.1923 14.7277L17.0158 15.8786ZM18.9618 15.58L20.5845 16.8368L21.4499 15.7174L19.8279 14.4617L18.9618 15.58ZM20.6141 18.8146L19.0778 19.9159L19.9015 21.0658L21.4377 19.9655L20.6141 18.8146ZM18.2026 20.2077C16.8315 20.1151 13.3571 19.4351 10.1847 15.0597L9.03848 15.8897C12.4997 20.6648 16.3965 21.5041 18.107 21.6204L18.2026 20.2077ZM10.1847 15.0597C7.1617 10.8883 7.05341 7.77633 7.19144 6.45564L5.78337 6.3082C5.60906 7.97001 5.80675 11.4321 9.03848 15.8897L10.1847 15.0597ZM12.4002 9.51177L12.7108 9.28881L11.888 8.13901L11.5776 8.36104L12.4002 9.51177ZM13.473 5.93773L12.5542 4.17868L11.2994 4.83525L12.2184 6.59337L13.473 5.93773ZM8.6597 3.19533L6.96145 4.41079L7.7859 5.56182L9.48322 4.34621L8.6597 3.19533ZM11.9889 8.93641C11.5757 8.36074 11.5757 8.36074 11.5754 8.3626L11.5736 8.3623L11.5702 8.36557C11.5187 8.40301 11.4711 8.44556 11.4281 8.49259C11.3657 8.55893 11.2949 8.6478 11.2282 8.76411C11.0629 9.06546 10.9788 9.40463 10.9842 9.74831C10.9782 10.5742 11.3604 11.729 12.5521 13.3736L13.6984 12.5427C12.5823 11.004 12.3963 10.1478 12.3993 9.75827C12.4007 9.57305 12.4441 9.48832 12.4559 9.46919C12.4635 9.45768 12.4638 9.45582 12.4568 9.46361C12.4464 9.47511 12.4351 9.48574 12.4229 9.49539L12.4121 9.50319L12.4014 9.51006L11.9889 8.93641ZM12.5521 13.3736C13.7447 15.0185 14.7253 15.7436 15.5119 15.9976C15.9142 16.1279 16.2549 16.1316 16.5225 16.0786C16.6723 16.0498 16.8165 15.997 16.9494 15.9223L17.0028 15.8879L17.0102 15.8834L17.0135 15.8811L17.0147 15.8794C17.0147 15.8794 17.0158 15.8786 16.6036 15.3031C16.1904 14.7274 16.1933 14.7269 16.1933 14.7269L16.1955 14.7254L16.1977 14.7238L16.204 14.72L16.2149 14.7122L16.2548 14.6901C16.2644 14.6859 16.2621 14.6861 16.248 14.6909C16.2233 14.6955 16.1273 14.7095 15.9484 14.6518C15.5725 14.5295 14.8136 14.0813 13.6984 12.5427L12.5521 13.3736ZM12.5543 4.17775C11.81 2.75678 9.97623 2.25245 8.6597 3.19533L9.48322 4.34621C10.0587 3.93399 10.9296 4.12801 11.2994 4.83525L12.5543 4.17775ZM7.19222 6.45672C7.22593 6.13144 7.42878 5.81833 7.78575 5.56276L6.96037 4.41157C6.37944 4.8277 5.8711 5.46783 5.78337 6.3082L7.19222 6.45672ZM19.0778 19.9159C18.7812 20.1296 18.4822 20.2283 18.2034 20.2088L18.107 21.6204C18.802 21.6673 19.4177 21.4136 19.9023 21.0669L19.0778 19.9159ZM12.7108 9.28881C13.7763 8.52599 14.0783 7.09619 13.4738 5.93881L12.2192 6.59445C12.513 7.15743 12.3502 7.80684 11.8869 8.13979L12.7108 9.28881ZM20.5853 16.8378C21.2791 17.375 21.2392 18.3684 20.6149 18.8157L21.4395 19.9658C22.8892 18.927 22.8408 16.7941 21.4506 15.7184L20.5853 16.8378ZM17.5089 15.5266C17.9243 15.2289 18.5141 15.2348 18.9626 15.5811L19.8287 14.4627C18.9083 13.7492 17.6319 13.6978 16.6844 14.3755L17.5089 15.5266Z"
+                      fill="white"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4061_3376">
+                      <rect width="22.6461" height="22.6461" fill="white"
+                        transform="translate(3.63086 0.425293) rotate(9.22514)"></rect>
+                    </clipPath>
+                  </defs>
+                </svg></span>
+              <span class="btn_text">(920) 434-2523</span>
+            </a>
+            <a class="header_btn_link" href="https://www.midwesttextile.com/contact-us?hsLang=en">
+              <span class="btn_text"> Get a Quote</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--header is End-->
+  <!--Banner Section is start-->
+  <section class="banner_section">
+    <video preload="auto" playsinline="" autoplay="" loop="" muted=""
+      src="https://www.midwesttextile.com/hubfs/2025/videos/My%20Video.mp4" class="video-bg" width="100%"
+      height="100%"></video>
+    <div class="container">
+      <div class="banner_content">
+        <h1>
+          America’s Leading Contract
+          <span class="orange">Sewing Company Based in the USA</span>
+        </h1>
+        <div class="banner_pragraph">
+          <p>
+            From first samples to full-scale production, we cut and sew
+            textiles with care, speed, and compliance built in.
+          </p>
+        </div>
+        <div class="banner_btn_group">
+          <a class="btn_link" href="https://www.midwesttextile.com/contact-us?hsLang=en">
+            <span class="btn_text">Get a Quote</span>
+            <span class="banner_svg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path
+                  d="M6.50097 8.06121C6.50097 8.33707 6.39139 8.60164 6.19632 8.79671C6.00125 8.99178 5.73668 9.10136 5.46082 9.10136C5.18495 9.10136 4.92038 8.99178 4.72532 8.79671C4.53025 8.60164 4.42066 8.33707 4.42066 8.06121C4.42066 7.78534 4.53025 7.52077 4.72532 7.32571C4.92038 7.13064 5.18495 7.02105 5.46082 7.02105C5.73668 7.02105 6.00125 7.13064 6.19632 7.32571C6.39139 7.52077 6.50097 7.78534 6.50097 8.06121ZM5.46082 14.8222C5.73668 14.8222 6.00125 14.7126 6.19632 14.5176C6.39139 14.3225 6.50097 14.0579 6.50097 13.7821C6.50097 13.5062 6.39139 13.2416 6.19632 13.0466C6.00125 12.8515 5.73668 12.7419 5.46082 12.7419C5.18495 12.7419 4.92038 12.8515 4.72532 13.0466C4.53025 13.2416 4.42066 13.5062 4.42066 13.7821C4.42066 14.0579 4.53025 14.3225 4.72532 14.5176C4.92038 14.7126 5.18495 14.8222 5.46082 14.8222ZM0 3.25049C0 2.3884 0.342461 1.56163 0.952046 0.952046C1.56163 0.342461 2.3884 0 3.25049 0H15.4723C16.3344 0 17.1612 0.342461 17.7708 0.952046C18.3803 1.56163 18.7228 2.3884 18.7228 3.25049V15.4723C18.7228 16.3344 18.3803 17.1612 17.7708 17.7708C17.1612 18.3803 16.3344 18.7228 15.4723 18.7228H3.25049C2.3884 18.7228 1.56163 18.3803 0.952046 17.7708C0.342461 17.1612 0 16.3344 0 15.4723V3.25049ZM7.80117 8.06121C7.80117 7.75387 7.74063 7.44954 7.62302 7.16559C7.50541 6.88165 7.33302 6.62365 7.1157 6.40633C6.89837 6.18901 6.64038 6.01662 6.35643 5.89901C6.07249 5.78139 5.76816 5.72086 5.46082 5.72086C5.15348 5.72086 4.84915 5.78139 4.5652 5.89901C4.28126 6.01662 4.02326 6.18901 3.80594 6.40633C3.58862 6.62365 3.41623 6.88165 3.29862 7.16559C3.181 7.44954 3.12047 7.75387 3.12047 8.06121C3.12047 8.68191 3.36704 9.27718 3.80594 9.71609C4.24484 10.155 4.84012 10.4016 5.46082 10.4016C6.08152 10.4016 6.6768 10.155 7.1157 9.71609C7.5546 9.27718 7.80117 8.68191 7.80117 8.06121ZM5.46082 16.1224C6.08152 16.1224 6.6768 15.8758 7.1157 15.4369C7.5546 14.998 7.80117 14.4028 7.80117 13.7821C7.80117 13.1614 7.5546 12.5661 7.1157 12.1272C6.6768 11.6883 6.08152 11.4417 5.46082 11.4417C4.84012 11.4417 4.24484 11.6883 3.80594 12.1272C3.36704 12.5661 3.12047 13.1614 3.12047 13.7821C3.12047 14.4028 3.36704 14.998 3.80594 15.4369C4.24484 15.8758 4.84012 16.1224 5.46082 16.1224ZM3.77057 2.60039C3.59815 2.60039 3.43279 2.66888 3.31088 2.7908C3.18896 2.91272 3.12047 3.07807 3.12047 3.25049C3.12047 3.4229 3.18896 3.58826 3.31088 3.71018C3.43279 3.83209 3.59815 3.90058 3.77057 3.90058H14.9522C15.1247 3.90058 15.29 3.83209 15.4119 3.71018C15.5338 3.58826 15.6023 3.4229 15.6023 3.25049C15.6023 3.07807 15.5338 2.91272 15.4119 2.7908C15.29 2.66888 15.1247 2.60039 14.9522 2.60039H3.77057ZM8.84132 8.19123C8.84132 8.55008 9.13257 8.84132 9.49142 8.84132H14.9522C15.1247 8.84132 15.29 8.77283 15.4119 8.65092C15.5338 8.529 15.6023 8.36364 15.6023 8.19123C15.6023 8.01881 15.5338 7.85346 15.4119 7.73154C15.29 7.60962 15.1247 7.54113 14.9522 7.54113H9.49142C9.13257 7.54113 8.84132 7.83237 8.84132 8.19123ZM9.49142 13.0019C9.31901 13.0019 9.15365 13.0704 9.03173 13.1924C8.90982 13.3143 8.84132 13.4796 8.84132 13.652C8.84132 13.8245 8.90982 13.9898 9.03173 14.1117C9.15365 14.2337 9.31901 14.3021 9.49142 14.3021H14.9522C15.1247 14.3021 15.29 14.2337 15.4119 14.1117C15.5338 13.9898 15.6023 13.8245 15.6023 13.652C15.6023 13.4796 15.5338 13.3143 15.4119 13.1924C15.29 13.0704 15.1247 13.0019 14.9522 13.0019H9.49142Z"
+                  fill="black"></path>
+              </svg></span>
+          </a>
+          <a class="btn_link_two" href="https://meetings.hubspot.com/jchookazian/meet-the-midwest-team" target="_blank"
+            rel="noopener" aria-describedby="audioeye_new_window_message">
+            <span class="btn_text_two">Schedule Consultation</span>
+            <span class="svg_block"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"
+                fill="none">
+                <path
+                  d="M11.549 13.797L12.0422 13.444L11.2168 12.2929L10.7255 12.6461L11.549 13.797ZM13.495 13.4984L15.1177 14.7552L15.9831 13.6358L14.3611 12.3801L13.495 13.4984ZM15.1473 16.733L13.611 17.8343L14.4347 18.9842L15.9709 17.8839L15.1473 16.733ZM12.7358 18.1261C11.3647 18.0335 7.89033 17.3535 4.71789 12.9781L3.57168 13.8081C7.03292 18.5832 10.9297 19.4225 12.6402 19.5388L12.7358 18.1261ZM4.71789 12.9781C1.6949 8.80672 1.58661 5.69473 1.72464 4.37403L0.31657 4.2266C0.142263 5.88841 0.339953 9.35047 3.57168 13.8081L4.71789 12.9781ZM6.93339 7.43017L7.24396 7.20721L6.42122 6.05741L6.1108 6.27944L6.93339 7.43017ZM8.00618 3.85613L7.08738 2.09708L5.83265 2.75365L6.7516 4.51176L8.00618 3.85613ZM3.1929 1.11372L1.49465 2.32919L2.3191 3.48022L4.01642 2.26461L3.1929 1.11372ZM6.52209 6.8548C6.10894 6.27914 6.10894 6.27914 6.10864 6.281L6.10677 6.2807L6.10337 6.28397C6.05186 6.32141 6.00428 6.36396 5.96134 6.41098C5.89894 6.47733 5.82811 6.5662 5.76142 6.68251C5.59611 6.98386 5.51203 7.32303 5.51745 7.6667C5.5114 8.49262 5.8936 9.64735 7.08526 11.292L8.23162 10.4611C7.11548 8.92235 6.92951 8.0662 6.93255 7.67667C6.93395 7.49144 6.97735 7.40672 6.98906 7.38759C6.99666 7.37608 6.99696 7.37422 6.98996 7.382C6.97957 7.39351 6.96825 7.40414 6.95612 7.41379L6.9453 7.42159L6.93462 7.42846L6.52209 6.8548ZM7.08526 11.292C8.27786 12.9368 9.25846 13.662 10.0451 13.916C10.4474 14.0463 10.7881 14.05 11.0557 13.997C11.2055 13.9682 11.3497 13.9154 11.4826 13.8407L11.536 13.8063L11.5434 13.8018L11.5467 13.7995L11.5479 13.7978C11.5479 13.7978 11.549 13.797 11.1368 13.2215C10.7236 12.6458 10.7266 12.6453 10.7266 12.6453L10.7287 12.6438L10.7309 12.6422L10.7372 12.6384L10.7481 12.6306L10.788 12.6085C10.7976 12.6043 10.7953 12.6045 10.7812 12.6093C10.7565 12.6139 10.6606 12.6279 10.4816 12.5702C10.1057 12.4479 9.34683 11.9997 8.23162 10.4611L7.08526 11.292ZM7.08753 2.09615C6.34325 0.675173 4.50943 0.170848 3.1929 1.11372L4.01642 2.26461C4.59194 1.85238 5.46285 2.04641 5.83265 2.75365L7.08753 2.09615ZM1.72542 4.37512C1.75913 4.04983 1.96198 3.73672 2.31895 3.48115L1.49357 2.32997C0.912641 2.74609 0.404306 3.38623 0.31657 4.2266L1.72542 4.37512ZM13.611 17.8343C13.3144 18.048 13.0154 18.1467 12.7366 18.1272L12.6402 19.5388C13.3352 19.5857 13.9509 19.332 14.4355 18.9853L13.611 17.8343ZM7.24396 7.20721C8.30946 6.44439 8.61147 5.01458 8.00696 3.85721L6.75238 4.51285C7.04619 5.07582 6.88336 5.72523 6.42014 6.05819L7.24396 7.20721ZM15.1185 14.7562C15.8123 15.2934 15.7724 16.2868 15.1481 16.7341L15.9727 17.8842C17.4224 16.8454 17.374 14.7125 15.9838 13.6368L15.1185 14.7562ZM12.0421 13.445C12.4575 13.1473 13.0473 13.1532 13.4958 13.4995L14.3619 12.3811C13.4416 11.6676 12.1651 11.6161 11.2176 12.2939L12.0421 13.445Z"
+                  fill="black"></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="baner_content_outer_image" style="
+            background-image: url(https://www.midwesttextile.com/hubfs/2025/images/home/counter_img.png);
+          ">
+        <div class="banner_content_outer_left">
+          <div class="banner_content_outer_image_two">
+            <img style="border-radius: 9.481px;"
+              src="..//project 2/image/MW_400x380_HP-2.png"
+              alt="banner_counter_left" />
+          </div>
+          <div class="left_content">
+            The source for contract and industrial sewing, custom soft cases,
+            and scalable sewn goods that perform. Berry Amendment–compliant
+            capable.
+          </div>
+        </div>
+        <div class="banner_outer_content_starts">
+          <div class="banner_outer_content_group_one">
+            <div class="pill-value"><span class="orange"></span>500+</div>
+            <div class="pill-label">Companies Served</div>
+          </div>
+          <div class="banner_outer_content_group_two">
+            <div class="banner_outer_content_inner">
+              <span class="orange">30</span>+
+            </div>
+            <div class="banner_outer_content_inner_two">Years Experience</div>
+          </div>
+          <div class="banner_outer_content_group_three">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/Flag_of_the_United_States%201.png?width=113&amp;height=59&amp;name=Flag_of_the_United_States%201.png"
+              alt="Flag_of_the_United_States 1" />
+            <div class="banner_outer_content_inner_three">Made In USA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Banner Section is End-->
+  <section class="outer_section">
+    <!-- Group One Section IS Start-->
+    <div class="container">
+      <h2 style="text-align: center">
+        <span class="orange">Why Choose</span> Midwest Textile
+      </h2>
+      <div class="group_block">
+        <div class="block">
+          <iframe style="margin: 0px auto; display: block; border: 0;"
+            src="https://lottie.host/embed/54c52651-d14c-4cdb-a41b-06c1c3350839/G0qbZLKpYc.lottie" width="560"
+            height="315"></iframe>
+          <h6>Skip the Middleman</h6>
+          <div class="summary">
+            We are the manufacturer. So that means you work straight with
+            the people designing, sewing, and shipping your products. That
+            means faster answers, smarter solutions, real collaboration with
+            no lost-in-translation delays.
+          </div>
+        </div>
+        <div class="block">
+          <iframe style="margin: 0px auto; display: block; border: 0;"
+            src="https://lottie.host/embed/7cd265cc-41f0-4412-a7f2-da8e72213875/WhlRiNI2LV.lottie" width="560"
+            height="315"></iframe>
+          <h6>Quick First Runs for Production</h6>
+          <div class="summary">
+            We specialize in production-ready first articles that help you
+            validate designs and move into full runs with confidence. From
+            event swag bags to hospital covers, every prototype is
+            engineered for manufacturability.
+          </div>
+        </div>
+        <div class="block">
+          <iframe style="margin: 0px auto; display: block; border: 0;"
+            src="https://lottie.host/embed/21877090-44ca-40ab-9ffa-7f48eaabe18b/tuSTWrvZN8.lottie" width="560"
+            height="315"></iframe>
+          <h6>Scalable Production</h6>
+          <div class="summary">
+            Whether it’s a pilot run of 100 custom-sewn bags or an order of
+            100,000+ American tool bags, we deliver with precision. Our
+            USA-based setup gives you the flexibility to scale quickly,
+            without overseas delays or quality risks.
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Group One Section IS End-->
+  </section>
+  <!--Group Two Section Is Start-->
+  <section class="numbers">
+    <div class="container">
+      <div class="numbers_inner">
+        <div class="num_left">
+          <h2 style="color: #fff;line-height: 1.2;">Manufacturing by <span class="orange">the Numbers</span></h2>
+        </div>
+        <ul class="group_ring">
+          <li>
+            <span class="ring"><span>50+</span></span>
+            <p>Skilled Sewers Fabric Experts</p>
+          </li>
+          <li>
+            <span class="ring"><span>200K+</span></span>
+            <p>Parts Produced Every Month</p>
+          </li>
+          <li>
+            <span class="ring"><span>100-100K+</span></span>
+            <p>Unit Production Runs</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--Group Section Two End-->
+  <!--Group Section Three Start-->
+  <section class="industries " style="padding:100px 0 100px;">
+    <div class="container">
+      <h2>Trusted by America’s<br><span class="orange"> Most Demanding Industries</span><br></h2>
+      <div class="summary  ">
+        <p>Fabric Manufacturing and Contract Sewing for Defense, Medical, Industrial Markets, and More</p>
+      </div>
+      <div class="group_of_bags">
+      <div class="card">
+        <div class="bags_group_img"><img src="image/attachment(6) 1.png" alt="image/attachment(6) 1.png"></div>
+        <div class="content">
+          <h4 class="heading">Tool</h4>
+          <p>Precision-crafted tool rolls, pouches, and soft cases built for daily wear and tear.</p>
+          <a class="tag" href="https://www.midwesttextile.com/tool-bag-sewing?hsLang=en">
+            Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+            <path d="M12.3536 4.81473C12.5488 4.61947 12.5488 4.30289 12.3536 4.10763L9.17157 0.925647C8.97631 0.730385 8.65973 0.730385 8.46447 0.925647C8.2692 1.12091 8.2692 1.43749 8.46447 1.63275L11.2929 4.46118L8.46447 7.28961C8.2692 7.48487 8.2692 7.80145 8.46447 7.99671C8.65973 8.19198 8.97631 8.19198 9.17157 7.99671L12.3536 4.81473ZM0 4.46118L4.05892e-08 4.96118L12 4.96118L12 4.46118L12 3.96118L-4.05892e-08 3.96118L0 4.46118Z" fill="black"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="bags_group_img"><img src="image/{11A476FA-B5CB-49EA-A012-7395BD9FFE47} 1.png" alt="image/{11A476FA-B5CB-49EA-A012-7395BD9FFE47} 1.png"></div>
+        <div class="content">
+         <h4>Defense & Military</h4>
+          <p>Berry Amendment–compliant solutions with secure, rugged textile applications.</p>
+          <a class="tag" href="https://www.midwesttextile.com/tool-bag-sewing?hsLang=en">
+            Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+            <path d="M12.3536 4.81473C12.5488 4.61947 12.5488 4.30289 12.3536 4.10763L9.17157 0.925647C8.97631 0.730385 8.65973 0.730385 8.46447 0.925647C8.2692 1.12091 8.2692 1.43749 8.46447 1.63275L11.2929 4.46118L8.46447 7.28961C8.2692 7.48487 8.2692 7.80145 8.46447 7.99671C8.65973 8.19198 8.97631 8.19198 9.17157 7.99671L12.3536 4.81473ZM0 4.46118L4.05892e-08 4.96118L12 4.96118L12 4.46118L12 3.96118L-4.05892e-08 3.96118L0 4.46118Z" fill="black"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="bags_group_img"><img src="image/attachment(5) 1.webp" alt="image/attachment(5) 1.webp"></div>
+        <div class="content">
+         <h4>EMS  & Medical</h4>
+         <p>Sterile-grade sewing, foam cutting, and packaging for critical care products.</p>
+          <a class="tag" href="https://www.midwesttextile.com/tool-bag-sewing?hsLang=en">
+            Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+            <path d="M12.3536 4.81473C12.5488 4.61947 12.5488 4.30289 12.3536 4.10763L9.17157 0.925647C8.97631 0.730385 8.65973 0.730385 8.46447 0.925647C8.2692 1.12091 8.2692 1.43749 8.46447 1.63275L11.2929 4.46118L8.46447 7.28961C8.2692 7.48487 8.2692 7.80145 8.46447 7.99671C8.65973 8.19198 8.97631 8.19198 9.17157 7.99671L12.3536 4.81473ZM0 4.46118L4.05892e-08 4.96118L12 4.96118L12 4.46118L12 3.96118L-4.05892e-08 3.96118L0 4.46118Z" fill="black"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+       <div class="bags_group_img"><img src="image/attachment(8) 1.webp" alt="image/attachment(8) 1.webp"></div>
+        <div class="content">
+          <h4>Outdoor  & Sport</h4>
+         <p>Weatherproof, high-durability textile components for tents, tarps, and shelters.</p>
+          <a class="tag" href="https://www.midwesttextile.com/tool-bag-sewing?hsLang=en">
+            Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+            <path d="M12.3536 4.81473C12.5488 4.61947 12.5488 4.30289 12.3536 4.10763L9.17157 0.925647C8.97631 0.730385 8.65973 0.730385 8.46447 0.925647C8.2692 1.12091 8.2692 1.43749 8.46447 1.63275L11.2929 4.46118L8.46447 7.28961C8.2692 7.48487 8.2692 7.80145 8.46447 7.99671C8.65973 8.19198 8.97631 8.19198 9.17157 7.99671L12.3536 4.81473ZM0 4.46118L4.05892e-08 4.96118L12 4.96118L12 4.46118L12 3.96118L-4.05892e-08 3.96118L0 4.46118Z" fill="black"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="bags_group_img"><img src="image/image 27.webp" alt="image/image 27.webp"></div>
+        <div class="content">
+         <h4>Industrial  & OEM</h4>
+         <p>Custom upholstery, seat covers, acoustic padding, and OEM parts delivered at scale.</p>
+          <a class="tag" href="https://www.midwesttextile.com/tool-bag-sewing?hsLang=en">
+            Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+            <path d="M12.3536 4.81473C12.5488 4.61947 12.5488 4.30289 12.3536 4.10763L9.17157 0.925647C8.97631 0.730385 8.65973 0.730385 8.46447 0.925647C8.2692 1.12091 8.2692 1.43749 8.46447 1.63275L11.2929 4.46118L8.46447 7.28961C8.2692 7.48487 8.2692 7.80145 8.46447 7.99671C8.65973 8.19198 8.97631 8.19198 9.17157 7.99671L12.3536 4.81473ZM0 4.46118L4.05892e-08 4.96118L12 4.96118L12 4.46118L12 3.96118L-4.05892e-08 3.96118L0 4.46118Z" fill="black"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="bags_group_img"><img src="image/attachment(4) 1.webp" alt="image/attachment(4) 1.webp"></div>
+        <div class="content">
+         <h4>Promotional & Demo</h4>
+        <p>Branded covers, foam displays, bags, and textile marketing assets.</p>
+          <a class="tag" href="https://www.midwesttextile.com/tool-bag-sewing?hsLang=en">
+            Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13" height="9" viewBox="0 0 13 9" fill="none">
+            <path d="M12.3536 4.81473C12.5488 4.61947 12.5488 4.30289 12.3536 4.10763L9.17157 0.925647C8.97631 0.730385 8.65973 0.730385 8.46447 0.925647C8.2692 1.12091 8.2692 1.43749 8.46447 1.63275L11.2929 4.46118L8.46447 7.28961C8.2692 7.48487 8.2692 7.80145 8.46447 7.99671C8.65973 8.19198 8.97631 8.19198 9.17157 7.99671L12.3536 4.81473ZM0 4.46118L4.05892e-08 4.96118L12 4.96118L12 4.46118L12 3.96118L-4.05892e-08 3.96118L0 4.46118Z" fill="black"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+   </div>
+  </section>
+  <!--Group Section Three End-->
+  <!--Group Section four start-->
+  <section class="midwest-section" style="background-color:#fff;opacity:100;">
+    <div class="container">
+      <div class="midwest-text_inner">
+        <div class="midwest-text" >
+          <h2>From One Machine to<span class="orange"> a Midwest Powerhouse</span></h2>
+          <h4 role="presentation"></h4>
+          <div class="summary">
+            <p>Steve started Midwest Textile in a small shop with just one industrial sewing machine. Over decades, his
+              grit and obsession with craftsmanship built a factory trusted by federal defense agencies and Fortune 500
+              OEMs alike.</p>
+            <p>Today, our factory combines old-school American values with modern automation to produce mission-critical
+              textile products at national scale.</p>
+          </div>
+          <div class="list_sec">
+          </div>
+          <a class="btn-read" href="https://www.midwesttextile.com/about?hsLang=en">
+            Read Our Story
+          </a>
+        </div>
+        <!-- Right Image -->
+        <div class="midwest-image ">
+          <img class="product"
+            src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=1055height=720name=attachment(6)%203.png"
+            alt="attachment(6) 3" loading="lazy" width="1055" height="720"
+            style="max-width: 100%; vertical-align: middle;height: auto;"
+            srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=528height=360name=attachment(6)%203.png 528w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=1055&amp;height=720&amp;name=attachment(6)%203.png 1055w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=1583&amp;height=1080&amp;name=attachment(6)%203.png 1583w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=2110&amp;height=1440&amp;name=attachment(6)%203.png 2110w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=2638&amp;height=1800&amp;name=attachment(6)%203.png 2638w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/attachment(6)%203.png?width=3165&amp;height=2160&amp;name=attachment(6)%203.png 3165w"
+            sizes="(max-width: 1055px) 100vw, 1055px ">
+          <img class="flag"
+            src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=335height=176name=image%2024.png"
+            alt="image 24" loading="lazy" width="335" height="176" style="max-width: 100%; height: auto; "
+            srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=168&height=88name=image%2024.png 168w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=335&amp;height=176&amp;name=image%2024.png 335w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=503&amp;height=264&amp;name=image%2024.png 503w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=670&amp;height=352&amp;name=image%2024.png 670w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=838&amp;height=440&amp;name=image%2024.png 838w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/image%2024.png?width=1005&amp;height=528&amp;name=image%2024.png 1005w"
+            sizes="(max-width: 335px) 100vw, 335px">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Group Section four End-->
+  <!--Group Section five start-->
+  <section class="midwest-section" style="background:linear-gradient(90deg, #1C3B55 0%, #263745 100%);">
+    <div class="container">
+        <div class="reverse">
+        <div class="midwest-text" style="color:#fff;">
+          <h2>OEM Textile Contract Manufacturing<span class="orange"> Capabilities</span></h2>
+          <h4>End-to-End Manufacturing, From Design Through Delivery</h4>
+          <div class="summary" style="color:#fff;">
+            <p>You need products that aren’t just built. You need products that are built right. At Midwest Textile, we
+              take your production-ready ideas from concept to completion. Our team engineers, prototypes, and scales
+              with you, making sure every piece is production-ready, compliant, and on time. The result? Sewn goods you
+              can trust to perform in the field, scale with demand, and arrive exactly where you need them.</p>
+          </div>
+          <div class="list_sec" style="color:#fff;">
+            <ul>
+              <li>Development and Engineering</li>
+              <li>Prototype Development</li>
+              <li>Contract Custom Soft Sewing</li>
+              <li>Custom Upholstery and Covers</li>
+              <li>Warehouse / Inventory Management / Logistics</li>
+              <li>Integration with Various Materials &amp; Kitting</li>
+            </ul>
+          </div>
+          <a class="btn-read" href="https://www.midwesttextile.com/capabilities?hsLang=en">
+            View Full Capabilities
+          </a>
+        </div>
+        <div class="midwest-text_inner">
+        <div class="midwest-image image_under_container">
+          <img class="product" style="height: 845.9px;"
+            src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=886height=864name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png"
+            alt="{BBE336EE-CED3-41C2-8471-4E4E10B03CC7} 1" loading="lazy" width="886" height="864 "
+            srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=443height=432name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png 443w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=886&amp;height=864&amp;name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png 886w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=1329&amp;height=1296&amp;name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png 1329w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=1772&amp;height=1728&amp;name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png 1772w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=2215&amp;height=2160&amp;name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png 2215w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png?width=2658&amp;height=2592&amp;name=%7BBBE336EE-CED3-41C2-8471-4E4E10B03CC7%7D%201.png 2658w"
+            sizes="(max-width: 886px) 100vw, 886px">
+        </div>
+      </div>
+        </div>
+    </div>
+  </section>
+  <!--Group Section five End-->
+  <!--Group Section Six Start-->
+  <section class="solutions panel-wrap">
+    <div class="container">
+      <div class="panel">
+        <div class="panel-copy">
+          <h2>Durable Sewn Solutions <span class="orange">for Every Industry</span></h2>
+          <div class="summary">
+            <p>At Midwest Textile Manufacturing, we provide versatile contract sewing services in the USA for industries
+              where quality and reliability matter most. From soft sided cases, custom sewn bags, and industrial
+              carrying solutions to medical soft goods, straps, harnesses, and upholstered products, our team transforms
+              customer concepts into durable sewn solutions. Starting with you prototype or full-scale production, we
+              adapt and innovate to meet your exact requirements — no two projects are ever alike.</p>
+            <p>Based in Green Bay, Wisconsin, our people are our greatest strength. Skilled sewing operators,
+              experienced production teams, and innovative engineers work together to deliver products that exceed
+              expectations. With decades of expertise as an industrial sewing manufacturer serving the medical,
+              industrial, tool, and defense markets, we bring a broad perspective to every project. For government and
+              military customers, we proudly offer Berry Amendment compliant tactical gear, bags, and soft goods to
+              ensure full compliance and mission readiness.</p>
+            <p>For over 30 years, customers have trusted us for our custom sewing services, quality craftsmanship, and
+              dependable delivery. We understand our work is often a critical link in your supply chain, and we take
+              that responsibility seriously. Whether it’s a rugged soft sided case, a precision-fit tactical bag, or a
+              specialized OEM sewn component, our passion and urgency drive us to deliver sewn products you can count on
+              — every time.</p>
+          </div>
+          <div class="list_block">
+          </div>
+        </div>
+        <div class="panel-media">
+          <div class="big_img">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=459height=666name=MW_460x666_1.png"
+              alt="MW_460x666_1" loading="lazy" width="459" height="666" style="max-width: 100%;object-fit: cover;border-radius: 8px;"
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=230height=333name=MW_460x666_1.png 230w, https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=459&amp;height=666&amp;name=MW_460x666_1.png 459w, https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=689&amp;height=999&amp;name=MW_460x666_1.png 689w, https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=918&amp;height=1332&amp;name=MW_460x666_1.png 918w, https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=1148&amp;height=1665&amp;name=MW_460x666_1.png 1148w, https://www.midwesttextile.com/hs-fs/hubfs/MW_460x666_1.png?width=1377&amp;height=1998&amp;name=MW_460x666_1.png 1377w"
+              sizes="(max-width: 459px) 100vw, 459px">
+          </div>
+          <div class="image_group">
+            <div class="m sm top">
+              <img
+                src="https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=401height=261name=MW_400x260_1.png"
+                alt="MW_400x260_1" loading="lazy" width="401" height="261" style="max-width: 100%;height: auto;object-fit: cover;border-radius: 8px; "
+                srcset="https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=201height=131name=MW_400x260_1.png 201w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=401&amp;height=261&amp;name=MW_400x260_1.png 401w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=602&amp;height=392&amp;name=MW_400x260_1.png 602w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=802&amp;height=522&amp;name=MW_400x260_1.png 802w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=1003&amp;height=653&amp;name=MW_400x260_1.png 1003w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x260_1.png?width=1203&amp;height=783&amp;name=MW_400x260_1.png 1203w"
+                sizes="(max-width: 401px) 100vw, 401px;margin-bottom: 30px;">
+            </div>
+            <div class="bot_img">
+              <img
+                src="https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=401height=380name=MW_400x380_1.png"
+                alt="MW_400x380_1" loading="lazy" width="401" height="380" style="max-width: 100%; height: 360px;object-fit: cover;border-radius: 8px;"
+                srcset="https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=201height=190name=MW_400x380_1.png 201w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=401&amp;height=380&amp;name=MW_400x380_1.png 401w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=602&amp;height=570&amp;name=MW_400x380_1.png 602w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=802&amp;height=760&amp;name=MW_400x380_1.png 802w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=1003&amp;height=950&amp;name=MW_400x380_1.png 1003w, https://www.midwesttextile.com/hs-fs/hubfs/MW_400x380_1.png?width=1203&amp;height=1140&amp;name=MW_400x380_1.png 1203w"
+                sizes="(max-width: 401px) 100vw, 401px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Group Section Six End-->
+
+  <!--Group Section Saven End-->
+  <section class="section_saven">
+    <div class="container">
+      <h3>Our Process</h3>
+      <div class="Section_saven_steps">
+        <div class="step">
+          <div class="step-icon">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=40&height=40name=Group.png"
+              alt="Group" loading="lazy" width="40" height="40" style="max-width: 100%; "
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=20height=20name=Group.png 20w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=40&amp;height=40&amp;name=Group.png 40w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=60&amp;height=60&amp;name=Group.png 60w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=80&amp;height=80&amp;name=Group.png 80w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=100&amp;height=100&amp;name=Group.png 100w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group.png?width=120&amp;height=120&amp;name=Group.png 120w"
+              sizes="(max-width: 40px) 100vw, 40px">
+          </div>
+          <p>Discovery</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=48height=48name=Vector%20(4).png"
+              alt="Vector (4)" loading="lazy" width="48" height="48" style="max-width: 100%; "
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=24height=24name=Vector%20(4).png 24w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=48&amp;height=48&amp;name=Vector%20(4).png 48w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=72&amp;height=72&amp;name=Vector%20(4).png 72w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=96&amp;height=96&amp;name=Vector%20(4).png 96w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=120&amp;height=120&amp;name=Vector%20(4).png 120w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(4).png?width=144&amp;height=144&amp;name=Vector%20(4).png 144w"
+              sizes="(max-width: 48px) 100vw, 48px">
+          </div>
+          <p>Concept</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=40height=40&name=Vector%20(5).png"
+              alt="Vector (5)" loading="lazy" width="40" height="40" style="max-width: 100%; "
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=20height=20name=Vector%20(5).png 20w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=40&amp;height=40&amp;name=Vector%20(5).png 40w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=60&amp;height=60&amp;name=Vector%20(5).png 60w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=80&amp;height=80&amp;name=Vector%20(5).png 80w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=100&amp;height=100&amp;name=Vector%20(5).png 100w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Vector%20(5).png?width=120&amp;height=120&amp;name=Vector%20(5).png 120w"
+              sizes="(max-width: 40px) 100vw, 40px">
+          </div>
+          <p>Prototype</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=48&amp;height=44&amp;name=Group%20427320498.png"
+              alt="Group 427320498" loading="lazy" width="48" height="44" style="max-width: 100%;"
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=24&amp;height=22&amp;name=Group%20427320498.png 24w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=48&amp;height=44&amp;name=Group%20427320498.png 48w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=72&amp;height=66&amp;name=Group%20427320498.png 72w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=96&amp;height=88&amp;name=Group%20427320498.png 96w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=120&amp;height=110&amp;name=Group%20427320498.png 120w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320498.png?width=144&amp;height=132&amp;name=Group%20427320498.png 144w"
+              sizes="(max-width: 48px) 100vw, 48px">
+          </div>
+          <p>Planning</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=47&amp;height=44&amp;name=Group%20(1).png"
+              alt="Group (1)" loading="lazy" width="47" height="44" style="max-width: 100%; height: auto;"
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=24&amp;height=22&amp;name=Group%20(1).png 24w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=47&amp;height=44&amp;name=Group%20(1).png 47w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=71&amp;height=66&amp;name=Group%20(1).png 71w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=94&amp;height=88&amp;name=Group%20(1).png 94w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=118&amp;height=110&amp;name=Group%20(1).png 118w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20(1).png?width=141&amp;height=132&amp;name=Group%20(1).png 141w"
+              sizes="(max-width: 47px) 100vw, 47px">
+          </div>
+          <p>Production</p>
+        </div>
+        <div class="step">
+          <div class="step-icon">
+            <img
+              src="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=40&amp;height=42&amp;name=Group%20427320503.png"
+              alt="Group 427320503" loading="lazy" width="40" height="42" style="max-width: 100%; height: auto;"
+              srcset="https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=20&amp;height=21&amp;name=Group%20427320503.png 20w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=40&amp;height=42&amp;name=Group%20427320503.png 40w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=60&amp;height=63&amp;name=Group%20427320503.png 60w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=80&amp;height=84&amp;name=Group%20427320503.png 80w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=100&amp;height=105&amp;name=Group%20427320503.png 100w, https://www.midwesttextile.com/hs-fs/hubfs/2025/images/home/Group%20427320503.png?width=120&amp;height=126&amp;name=Group%20427320503.png 120w"
+              sizes="(max-width: 40px) 100vw, 40px">
+          </div>
+          <p>Quality Control Delivery</p>
+        </div>
+      </div>
+      <a class="btn-process" href="https://www.midwesttextile.com/our-process?hsLang=en">
+      See Full Process
+    </a>
+    </div>
+  </section>
+  <!--Group Section Saven End-->
+  <!--Group Section eight Start-->
+  <section class="section_quote">
+    <div class="container">
+      <div class="quote_inner">
+        <h2>Ready to Start Manufacturing?</h2>
+        <div>
+          <h4 aria-level="3" role="heading">Turn your design into reality. Get your quote today—most are delivered
+            within 48 hours.</h4>
+        </div>
+        <div class="cta-row">
+          <a class="btn_link" href="https://www.midwesttextile.com/contact-us?hsLang=en">
+            <span class="text">Get a Quote</span><span class="svg_block"><svg xmlns="http://www.w3.org/2000/svg"
+                width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path
+                  d="M6.50097 8.06121C6.50097 8.33707 6.39139 8.60164 6.19632 8.79671C6.00125 8.99178 5.73668 9.10136 5.46082 9.10136C5.18495 9.10136 4.92038 8.99178 4.72532 8.79671C4.53025 8.60164 4.42066 8.33707 4.42066 8.06121C4.42066 7.78534 4.53025 7.52077 4.72532 7.32571C4.92038 7.13064 5.18495 7.02105 5.46082 7.02105C5.73668 7.02105 6.00125 7.13064 6.19632 7.32571C6.39139 7.52077 6.50097 7.78534 6.50097 8.06121ZM5.46082 14.8222C5.73668 14.8222 6.00125 14.7126 6.19632 14.5176C6.39139 14.3225 6.50097 14.0579 6.50097 13.7821C6.50097 13.5062 6.39139 13.2416 6.19632 13.0466C6.00125 12.8515 5.73668 12.7419 5.46082 12.7419C5.18495 12.7419 4.92038 12.8515 4.72532 13.0466C4.53025 13.2416 4.42066 13.5062 4.42066 13.7821C4.42066 14.0579 4.53025 14.3225 4.72532 14.5176C4.92038 14.7126 5.18495 14.8222 5.46082 14.8222ZM0 3.25049C0 2.3884 0.342461 1.56163 0.952046 0.952046C1.56163 0.342461 2.3884 0 3.25049 0H15.4723C16.3344 0 17.1612 0.342461 17.7708 0.952046C18.3803 1.56163 18.7228 2.3884 18.7228 3.25049V15.4723C18.7228 16.3344 18.3803 17.1612 17.7708 17.7708C17.1612 18.3803 16.3344 18.7228 15.4723 18.7228H3.25049C2.3884 18.7228 1.56163 18.3803 0.952046 17.7708C0.342461 17.1612 0 16.3344 0 15.4723V3.25049ZM7.80117 8.06121C7.80117 7.75387 7.74063 7.44954 7.62302 7.16559C7.50541 6.88165 7.33302 6.62365 7.1157 6.40633C6.89837 6.18901 6.64038 6.01662 6.35643 5.89901C6.07249 5.78139 5.76816 5.72086 5.46082 5.72086C5.15348 5.72086 4.84915 5.78139 4.5652 5.89901C4.28126 6.01662 4.02326 6.18901 3.80594 6.40633C3.58862 6.62365 3.41623 6.88165 3.29862 7.16559C3.181 7.44954 3.12047 7.75387 3.12047 8.06121C3.12047 8.68191 3.36704 9.27718 3.80594 9.71609C4.24484 10.155 4.84012 10.4016 5.46082 10.4016C6.08152 10.4016 6.6768 10.155 7.1157 9.71609C7.5546 9.27718 7.80117 8.68191 7.80117 8.06121ZM5.46082 16.1224C6.08152 16.1224 6.6768 15.8758 7.1157 15.4369C7.5546 14.998 7.80117 14.4028 7.80117 13.7821C7.80117 13.1614 7.5546 12.5661 7.1157 12.1272C6.6768 11.6883 6.08152 11.4417 5.46082 11.4417C4.84012 11.4417 4.24484 11.6883 3.80594 12.1272C3.36704 12.5661 3.12047 13.1614 3.12047 13.7821C3.12047 14.4028 3.36704 14.998 3.80594 15.4369C4.24484 15.8758 4.84012 16.1224 5.46082 16.1224ZM3.77057 2.60039C3.59815 2.60039 3.43279 2.66888 3.31088 2.7908C3.18896 2.91272 3.12047 3.07807 3.12047 3.25049C3.12047 3.4229 3.18896 3.58826 3.31088 3.71018C3.43279 3.83209 3.59815 3.90058 3.77057 3.90058H14.9522C15.1247 3.90058 15.29 3.83209 15.4119 3.71018C15.5338 3.58826 15.6023 3.4229 15.6023 3.25049C15.6023 3.07807 15.5338 2.91272 15.4119 2.7908C15.29 2.66888 15.1247 2.60039 14.9522 2.60039H3.77057ZM8.84132 8.19123C8.84132 8.55008 9.13257 8.84132 9.49142 8.84132H14.9522C15.1247 8.84132 15.29 8.77283 15.4119 8.65092C15.5338 8.529 15.6023 8.36364 15.6023 8.19123C15.6023 8.01881 15.5338 7.85346 15.4119 7.73154C15.29 7.60962 15.1247 7.54113 14.9522 7.54113H9.49142C9.13257 7.54113 8.84132 7.83237 8.84132 8.19123ZM9.49142 13.0019C9.31901 13.0019 9.15365 13.0704 9.03173 13.1924C8.90982 13.3143 8.84132 13.4796 8.84132 13.652C8.84132 13.8245 8.90982 13.9898 9.03173 14.1117C9.15365 14.2337 9.31901 14.3021 9.49142 14.3021H14.9522C15.1247 14.3021 15.29 14.2337 15.4119 14.1117C15.5338 13.9898 15.6023 13.8245 15.6023 13.652C15.6023 13.4796 15.5338 13.3143 15.4119 13.1924C15.29 13.0704 15.1247 13.0019 14.9522 13.0019H9.49142Z"
+                  fill="black"></path>
+              </svg></span>
+          </a>
+          <a class="btn_link_two" href="https://meetings.hubspot.com/jchookazian/meet-the-midwest-team" target="_blank"
+            rel="noopener" aria-describedby="audioeye_new_window_message">
+            <span class="txt">Schedule Consultation</span><span class="svg_block"><svg width="34" height="18" viewBox="0 0 18 20" fill="none">
+                <path
+                  d="M11.549 13.797L12.0422 13.444L11.2168 12.2929L10.7255 12.6461L11.549 13.797ZM13.495 13.4984L15.1177 14.7552L15.9831 13.6358L14.3611 12.3801L13.495 13.4984ZM15.1473 16.733L13.611 17.8343L14.4347 18.9842L15.9709 17.8839L15.1473 16.733ZM12.7358 18.1261C11.3647 18.0335 7.89033 17.3535 4.71789 12.9781L3.57168 13.8081C7.03292 18.5832 10.9297 19.4225 12.6402 19.5388L12.7358 18.1261ZM4.71789 12.9781C1.6949 8.80672 1.58661 5.69473 1.72464 4.37403L0.31657 4.2266C0.142263 5.88841 0.339953 9.35047 3.57168 13.8081L4.71789 12.9781ZM6.93339 7.43017L7.24396 7.20721L6.42122 6.05741L6.1108 6.27944L6.93339 7.43017ZM8.00618 3.85613L7.08738 2.09708L5.83265 2.75365L6.7516 4.51176L8.00618 3.85613ZM3.1929 1.11372L1.49465 2.32919L2.3191 3.48022L4.01642 2.26461L3.1929 1.11372ZM6.52209 6.8548C6.10894 6.27914 6.10894 6.27914 6.10864 6.281L6.10677 6.2807L6.10337 6.28397C6.05186 6.32141 6.00428 6.36396 5.96134 6.41098C5.89894 6.47733 5.82811 6.5662 5.76142 6.68251C5.59611 6.98386 5.51203 7.32303 5.51745 7.6667C5.5114 8.49262 5.8936 9.64735 7.08526 11.292L8.23162 10.4611C7.11548 8.92235 6.92951 8.0662 6.93255 7.67667C6.93395 7.49144 6.97735 7.40672 6.98906 7.38759C6.99666 7.37608 6.99696 7.37422 6.98996 7.382C6.97957 7.39351 6.96825 7.40414 6.95612 7.41379L6.9453 7.42159L6.93462 7.42846L6.52209 6.8548ZM7.08526 11.292C8.27786 12.9368 9.25846 13.662 10.0451 13.916C10.4474 14.0463 10.7881 14.05 11.0557 13.997C11.2055 13.9682 11.3497 13.9154 11.4826 13.8407L11.536 13.8063L11.5434 13.8018L11.5467 13.7995L11.5479 13.7978C11.5479 13.7978 11.549 13.797 11.1368 13.2215C10.7236 12.6458 10.7266 12.6453 10.7266 12.6453L10.7287 12.6438L10.7309 12.6422L10.7372 12.6384L10.7481 12.6306L10.788 12.6085C10.7976 12.6043 10.7953 12.6045 10.7812 12.6093C10.7565 12.6139 10.6606 12.6279 10.4816 12.5702C10.1057 12.4479 9.34683 11.9997 8.23162 10.4611L7.08526 11.292ZM7.08753 2.09615C6.34325 0.675173 4.50943 0.170848 3.1929 1.11372L4.01642 2.26461C4.59194 1.85238 5.46285 2.04641 5.83265 2.75365L7.08753 2.09615ZM1.72542 4.37512C1.75913 4.04983 1.96198 3.73672 2.31895 3.48115L1.49357 2.32997C0.912641 2.74609 0.404306 3.38623 0.31657 4.2266L1.72542 4.37512ZM13.611 17.8343C13.3144 18.048 13.0154 18.1467 12.7366 18.1272L12.6402 19.5388C13.3352 19.5857 13.9509 19.332 14.4355 18.9853L13.611 17.8343ZM7.24396 7.20721C8.30946 6.44439 8.61147 5.01458 8.00696 3.85721L6.75238 4.51285C7.04619 5.07582 6.88336 5.72523 6.42014 6.05819L7.24396 7.20721ZM15.1185 14.7562C15.8123 15.2934 15.7724 16.2868 15.1481 16.7341L15.9727 17.8842C17.4224 16.8454 17.374 14.7125 15.9838 13.6368L15.1185 14.7562ZM12.0421 13.445C12.4575 13.1473 13.0473 13.1532 13.4958 13.4995L14.3619 12.3811C13.4416 11.6676 12.1651 11.6161 11.2176 12.2939L12.0421 13.445Z"
+                  fill="black"></path>
+              </svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Group Section eight End-->
+  <!--footer is start-->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="f-col brand-col">
+        <div class="footer_logo large">
+          <a href="https://www.midwesttextile.com">
+            <img src="https://www.midwesttextile.com/hubfs/2025/images/home/logo.svg" class="hs-image-widget "
+              style="width:122px;border-width:0px;border:0px;" width="122" alt="logo" loading="disabled">
+          </a>
+        </div>
+        <p><span id="hs_cos_wrapper_short_summary" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text"
+            data-hs-cos-general-type="widget" data-hs-cos-type="text">America's premier contract manufacturer,
+            delivering quality, speed, and reliability for over 30 years. From concept to delivery, we make it
+            happen.</span></p>
+        <div class="mini-stats">
+          <span id="hs_cos_wrapper_counter" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+             data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+            <ul>
+              <li><strong>500+</strong> Companies Served</li>
+              <li><strong>30+</strong> Years Experience</li>
+            </ul>
+          </span>
+        </div>
+      </div>
+      <div class="f-col col-50">
+        <h6 aria-level="4" role="heading"><span id="hs_cos_wrapper_heading_one"
+            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text"
+            data-hs-cos-general-type="widget" data-hs-cos-type="text">Company</span></h6>
+        <span id="hs_cos_wrapper_menu_one" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu"
+         data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
+          <div id="hs_menu_wrapper_menu_one" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-vertical"
+            role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+            <ul role="menu" class="active-branch">
+              <li class="hs-menu-item hs-menu-depth-1 active active-branch" role="none"><a
+                  href="https://www.midwesttextile.com" role="menuitem" target="_self">Home</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.midwesttextile.com/about"
+                  role="menuitem" target="_self">About Us</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.midwesttextile.com/our-process"
+                  role="menuitem" target="_self">Process</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.midwesttextile.com/careers"
+                  role="menuitem" target="_self">Careers</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.midwesttextile.com/contact-us"
+                  role="menuitem" target="_self">Contact</a></li>
+            </ul>
+          </div>
+        </span>
+      </div>
+      <div class="f-col col-50">
+        <h6><span id="hs_cos_wrapper_heading_two" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text"
+            data-hs-cos-general-type="widget" data-hs-cos-type="text">Our Capabilities</span></h6>
+        <span id="hs_cos_wrapper_menu_two" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu"
+         data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
+          <div class="hs-menu-wrapper active-branch flyouts hs-menu-flow-vertical"
+             aria-label="Navigation Menu">
+            <ul role="menu">
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/capabilities#development-and-engineering" role="menuitem"
+                  target="_self">Development and Engineering</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/capabilities#prototype-development" role="menuitem"
+                  target="_self">Prototype Development</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/capabilities#contract-custom-soft-sewing" role="menuitem"
+                  target="_self">Contract Custom Soft Sewing</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/capabilities#custom-upholstery-and-covers" role="menuitem"
+                  target="_self">Custom Upholstery and Covers</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/capabilities#warehouse--inventory-management--logistics"
+                  role="menuitem" target="_self">Warehouse / Inventory Management / Logistics</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/capabilities#integration-with-various-materials-and-kitting"
+                  role="menuitem" target="_self">Various Materials &amp; Kitting</a></li>
+            </ul>
+          </div>
+        </span>
+      </div>
+      <div class="f-col col-50">
+        <h6><span id="hs_cos_wrapper_heading_three"
+            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" 
+            data-hs-cos-general-type="widget" data-hs-cos-type="text">Industries</span></h6>
+        <span id="hs_cos_wrapper_menu_three"
+          class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_simple_menu" 
+          data-hs-cos-general-type="widget" data-hs-cos-type="simple_menu">
+          <div id="hs_menu_wrapper_menu_three" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-vertical"
+            role="navigation" data-sitemap-name="" data-menu-id="" aria-label="Navigation Menu">
+            <ul role="menu">
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/industrial-oem-sewing" role="menuitem" target="_self">Industrial
+                  &amp; OEM</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/medical-contract-sewing" role="menuitem" target="_self"> Medical
+                  &amp; EMS</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/tool-bag-sewing" role="menuitem" target="_self"> Tool</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/military-contract-sewing" role="menuitem"
+                  target="_self">Military</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/outdoor-sport-bag-sewing" role="menuitem" target="_self"> Outdoor
+                  &amp; Sport</a></li>
+              <li class="hs-menu-item hs-menu-depth-1" role="none"><a
+                  href="https://www.midwesttextile.com/demo-bags-sales-kits" role="menuitem" target="_self">Promotional
+                  Demo</a></li>
+            </ul>
+          </div>
+        </span>
+      </div>
+      <div class="f-col contact_details col-50">
+        <h6><span id="hs_cos_wrapper_heading_four" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text"
+             data-hs-cos-general-type="widget" data-hs-cos-type="text">Contact</span></h6>
+        <span id="hs_cos_wrapper_address_deatils"
+          class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text"
+          data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+          <ul>
+            <li style="display: flex;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 2C14.3869 2 16.6761 2.94821 18.364 4.63604C20.0518 6.32387 21 8.61305 21 11C21 14.074 19.324 16.59 17.558 18.395C16.6757 19.2871 15.7129 20.0958 14.682 20.811L14.256 21.101L14.056 21.234L13.679 21.474L13.343 21.679L12.927 21.921C12.6446 22.0822 12.3251 22.1669 12 22.1669C11.6749 22.1669 11.3554 22.0822 11.073 21.921L10.657 21.679L10.137 21.359L9.945 21.234L9.535 20.961C8.42283 20.2085 7.3869 19.3491 6.442 18.395C4.676 16.589 3 14.074 3 11C3 8.61305 3.94821 6.32387 5.63604 4.63604C7.32387 2.94821 9.61305 2 12 2ZM12 8C11.606 8 11.2159 8.0776 10.8519 8.22836C10.488 8.37913 10.1573 8.6001 9.87868 8.87868C9.6001 9.15726 9.37913 9.48797 9.22836 9.85195C9.0776 10.2159 9 10.606 9 11C9 11.394 9.0776 11.7841 9.22836 12.1481C9.37913 12.512 9.6001 12.8427 9.87868 13.1213C10.1573 13.3999 10.488 13.6209 10.8519 13.7716C11.2159 13.9224 11.606 14 12 14C12.7956 14 13.5587 13.6839 14.1213 13.1213C14.6839 12.5587 15 11.7956 15 11C15 10.2044 14.6839 9.44129 14.1213 8.87868C13.5587 8.31607 12.7956 8 12 8Z"
+                  fill="#F8AE1D"></path>
+              </svg>3188 Bowling Green Ln<br>Green Bay, WI 54313</li>
+            <li style="display: flex; align-items: center;"><svg  width="18" height="18" viewBox="0 0 18 18"  fill="none">
+                <path
+                  d="M16.95 18C14.8667 18 12.8083 17.546 10.775 16.638C8.74167 15.73 6.89167 14.4423 5.225 12.775C3.55833 11.1077 2.271 9.25767 1.363 7.225C0.455 5.19233 0.000666667 3.134 0 1.05C0 0.75 0.0999999 0.5 0.3 0.3C0.5 0.0999999 0.75 0 1.05 0H5.1C5.33333 0 5.54167 0.0793332 5.725 0.238C5.90833 0.396667 6.01667 0.584 6.05 0.8L6.7 4.3C6.73333 4.56667 6.725 4.79167 6.675 4.975C6.625 5.15833 6.53333 5.31667 6.4 5.45L3.975 7.9C4.30833 8.51667 4.704 9.11233 5.162 9.687C5.62 10.2617 6.12433 10.816 6.675 11.35C7.19167 11.8667 7.73333 12.346 8.3 12.788C8.86667 13.23 9.46667 13.634 10.1 14L12.45 11.65C12.6 11.5 12.796 11.3877 13.038 11.313C13.28 11.2383 13.5173 11.2173 13.75 11.25L17.2 11.95C17.4333 12.0167 17.625 12.1377 17.775 12.313C17.925 12.4883 18 12.684 18 12.9V16.95C18 17.25 17.9 17.5 17.7 17.7C17.5 17.9 17.25 18 16.95 18Z"
+                  fill="#F8AE1D"></path>
+              </svg><a href="tel:(920)%20434-2523">(920) 434-2523</a></li>
+          </ul>
+        </span>
+        <div class="socials">
+          <span id="hs_cos_wrapper_social_icons"
+            class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" 
+            data-hs-cos-general-type="widget" data-hs-cos-type="rich_text">
+            <ul class="flex">
+              <li><a href="https://www.facebook.com/midwesttextileusa/"><svg 
+                    width="18" height="17" viewBox="0 0 18 17" fill="none">
+                    <path
+                      d="M10.173 16.1504V9.16339H12.621L12.995 6.44339H10.173V4.70939C10.173 4.26739 10.258 3.95006 10.428 3.75739C10.6433 3.50806 11.0287 3.38339 11.584 3.38339H13.097V0.95239C12.927 0.929723 12.6607 0.907057 12.298 0.88439C11.822 0.861723 11.3517 0.850389 10.887 0.850389C10.1617 0.850389 9.52133 0.989223 8.966 1.26689C8.41067 1.54456 7.98 1.95256 7.674 2.49089C7.368 3.02922 7.215 3.67806 7.215 4.43739V6.44339H4.75V9.16339H7.215V16.1504H10.173Z"
+                      fill="white"></path>
+                  </svg></a></li>
+              <li><a href="https://www.linkedin.com/company/midwest-textile-mfg/"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                    <path
+                      d="M1.34961 2.54994C1.34961 2.05128 1.52244 1.64328 1.86811 1.32594C2.21378 1.00861 2.66144 0.849944 3.21111 0.849944C3.76078 0.849944 4.20278 1.00861 4.53711 1.32594C4.87144 1.64328 5.03861 2.06261 5.03861 2.58394C5.03861 3.05995 4.87428 3.45094 4.54561 3.75694C4.18294 4.08561 3.72961 4.24994 3.18561 4.24994H3.16861C2.62461 4.24994 2.18544 4.08561 1.85111 3.75694C1.51678 3.42828 1.34961 3.02594 1.34961 2.54994ZM1.53661 15.4189V5.59295H4.81761V15.4189H1.53661ZM6.63661 15.4189H9.91761V9.92795C9.91761 9.56528 9.95728 9.29894 10.0366 9.12894C10.1839 8.77761 10.3936 8.49995 10.6656 8.29594C10.9376 8.05794 11.2889 7.93894 11.7196 7.93894C12.8189 7.93894 13.3686 8.68128 13.3686 10.1659V15.4189H16.6496V9.77494C16.6496 8.31294 16.3068 7.21078 15.6211 6.46844C14.9354 5.72611 14.0259 5.35495 12.8926 5.35495C11.6233 5.35495 10.6316 5.89894 9.91761 6.98695V7.02094H9.90061L9.91761 6.98695V5.59295H6.63661C6.65928 6.00095 6.67061 6.97561 6.67061 8.51694C6.67061 9.35561 6.66494 11.0046 6.65361 13.4639L6.63661 15.4189Z"
+                      fill="white"></path>
+                  </svg></a></li>
+            </ul>
+          </span>
+        </div>
+      </div>
+    </div> 
+  </footer> 
+  <!--footer is end-->
+    <div class="footer_outer">
+  <div class="container">
+    <div class="footer_outer_inner">
+      <div class="footer_outer_legal"> <span  class="footer_outer_text">© 2025 Midwest Textile Manufacturing. All rights reserved.</span></div>
+      <div class="footer_outer_menus"> <span class="footer_outer_right_side_text"><p id="footer_outer_inline_text"><a href="https://www.midwesttextile.com/accessibility?hsLang=en">Accessibility Statement</a><a href="https://www.midwesttextile.com/privacy-policy?hsLang=en">Privacy Policy</a> <a href="https://www.midwesttextile.com/terms-of-service?hsLang=en" >Terms of Service</a></p></span></div>
+    </div>
+  </div>
+</div>
+  <script src="./js/js.js"></script>
+</body>
+<!--body is End-->
+</html>
